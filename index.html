@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="8590442681">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>ATHUL P</h1>
+            <img src="athulphoto.jpg" alt="ATHUL P" id="profile-photo">
+            <p>Web Developer | Designer | Creative Thinker</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Athul, a 22-year-old aspiring technologist from the picturesque town of Payyannur in Kannur District, Kerala, India. In 2023, I proudly graduated with a BSc in Mathematics from Payyannur College, establishing a strong foundation in analytical thinking and problem-solving. Building on this mathematical background, I'm currently expanding my horizons in the world of computer science by pursuing a Master of Computer Applications (MCA) at the prestigious Cochin University of Science and Technology.
+                
+                My academic journey from pure mathematics at Payyannur College to applied computer science at Cochin University reflects my passion for learning and my drive to bridge the gap between theoretical concepts and practical applications. As a young professional at the intersection of mathematics and technology, I'm excited to leverage my analytical skills and growing technical expertise to tackle complex challenges in the digital world.
+                
+                I'm constantly learning and adapting to the ever-evolving tech landscape, eager to contribute my unique perspective to innovative projects. Whether it's developing efficient algorithms, creating user-friendly applications, or exploring the frontiers of data science, I'm ready to make my mark in the tech industry.
+                
+                Feel free to explore my projects and reach out if you'd like to connect or collaborate!</p>
+            <ul id="skills">
+                <li>PYTHON</li>
+                <li>JAVA</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>C/C++</li>
+                <li>MYSQL</li>  
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-project="1">
+                    <h3>Project 1</h3>
+                    <p>Brief description of Project 1</p>
+                    <button class="project-details-btn">Learn More</button>
+                </div>
+                <div class="project-card" data-project="2">
+                    <h3>Project 2</h3>
+                    <p>Brief description of Project 2</p>
+                    <button class="project-details-btn">Learn More</button>
+                </div>
+                <div class="project-card" data-project="3">
+                    <h3>Project 3</h3>
+                    <p>Brief description of Project 3</p>
+                    <button class="project-details-btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <a id="modal-link" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
